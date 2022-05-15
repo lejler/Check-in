@@ -10,6 +10,14 @@ public class Passagier {
         this.titel = titel;
     }
 
+    public void checkIn() {
+
+    }
+
+    public void onGate() {
+        
+    }
+
     public String getName() {
         return name;
     }
