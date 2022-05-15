@@ -1,15 +1,15 @@
 public class Flug {
     
-    private String maschine;
+    private String flugNummer;
     private String origin;
     private String destination;
     private String abflugszeit;
     private String gate;
     private Passagier[] passagiere;
     
-    public Flug(String maschine, String origin, String destination, String abflugsZeit, String gate,
+    public Flug(String flugNummer, String origin, String destination, String abflugsZeit, String gate,
             Passagier[] passagiere) {
-        this.maschine = maschine;
+        this.flugNummer = flugNummer;
         this.origin = origin;
         this.destination = destination;
         this.abflugszeit = abflugsZeit;
@@ -18,15 +18,15 @@ public class Flug {
     }
 
     public void ausrufen() {
-        
+
     }
 
     public String getMaschine() {
-        return maschine;
+        return flugNummer;
     }
 
     public void setMaschine(String maschine) {
-        this.maschine = maschine;
+        this.flugNummer = maschine;
     }
 
     public String getOrigin() {
