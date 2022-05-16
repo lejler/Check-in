@@ -11,11 +11,11 @@ public class Passagier {
     }
 
     public void checkIn() {
-        System.out.printf("{} {} {} ist eingecheckt.", titel, vorname, name);
+        System.out.printf("{} {} {} ist eingecheckt.", this.titel, this.vorname, this.name);
     }
 
     public void onGate() {
-        System.out.printf("{} {} {} befindet sich am Gate.", titel, vorname, name);
+        System.out.printf("{} {} {} befindet sich am Gate.", this.titel, this.vorname, this.name);
     }
 
     public String getName() {
