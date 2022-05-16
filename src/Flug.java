@@ -18,7 +18,11 @@ public class Flug {
     }
 
     public void ausrufen() {
-
+        System.out.printf("Flug {} von {} nach {} startet um {} von Gate {}", flugNummer, origin, destination, abflugszeit, gate);
+        System.out.println("Folgende Passagiere sind noch nicht geboardet:");
+        for (int i = 0; i < passagiere.length; i++) {
+            
+        }
     }
 
     public String getMaschine() {
